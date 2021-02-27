@@ -7,6 +7,11 @@ body {
     color: hsl(0, 0%, 100%);
 }
 
+main,
+footer {
+    position: relative;
+    top: 4rem;
+}
 
 
 /* HEADER */
@@ -26,6 +31,7 @@ header{
 header img {
     width: 4rem;
     height: 100%;
+    border-radius: 200px;
 }
 
 header div {
@@ -58,19 +64,19 @@ ul {
     list-style: none;
 }
 
-nav a:link {
+a:link {
     text-decoration: unset;
 }
 
-nav a:visited {
+a:visited {
     color: hsl(0, 0%, 100%);
 }
 
-nav a:hover {
+a:hover {
     color: hsl(34, 78%, 91%);
 }
 
-nav a:active {
+a:active {
     color: hsl(34, 78%, 85%);
 }
 
@@ -80,9 +86,84 @@ nav ul li {
 }
 
 .contact-me {
-    
     background-color: hsl(217, 100%, 21%);
 }
 
 
 /* Banner */
+
+
+.banner {
+
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+        ),
+        url('Assets/Images/Web Dev.jpg')
+    ;
+
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Projects */
+
+.list img {
+    width: 30rem;
+    height: 30rem;
+}
+
+#projects {
+    text-align: center;
+}
+
+.list img:hover {
+    border: 4px solid #fdc500;
+}
+
+.Language-list {
+    display: block;
+} 
+
+.Language-list li {
+    padding: 0.5rem;
+}
+
+summary {
+    font-size: 1.5em;
+}
+
+
+/* Skills */
+
+i {
+    padding: 1.5rem;
+}
+
+#skills {
+    text-align: center;
+}
+
+
+/* Footer */
+
+footer {
+    border-top: 4px solid #fdc500;
+    height: 4rem;
+    padding-left: 1rem;
+    
+}
+
+.fa-copyright {
+    padding: unset;
+}
+
+footer p {
+    padding-bottom: 1rem;
+}
