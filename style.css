@@ -148,6 +148,9 @@ summary {
     line-height: 2rem;
 }
 
+#project-summary {
+    display: none;
+}
 /* Skills */
 
 i {
