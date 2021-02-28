@@ -5,6 +5,7 @@
 body {
     background-color: hsl(209, 100%, 31%);
     color: hsl(0, 0%, 100%);
+    
 }
 
 main,
@@ -177,4 +178,17 @@ footer {
 
 footer p {
     padding-bottom: 1rem;
+}
+
+
+
+/* Contact PAGE.html */
+
+.main-contact {
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.main-contact h2, h1 {
+    display: inline;
 }
