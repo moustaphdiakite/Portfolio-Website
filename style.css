@@ -67,6 +67,7 @@ ul {
 
 a:link {
     text-decoration: unset;
+    color: hsl(0, 0%, 100%);
 }
 
 a:visited {
