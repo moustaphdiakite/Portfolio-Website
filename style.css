@@ -13,13 +13,16 @@ header ul {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    padding: 0 1rem;
+    padding: unset;
 }
 
 header nav {
     padding: 0 1rem;
     border: 1px solid hsl(0, 0%, 8%);
-    background-color: hsl(148, 30%, 46%);;
+    background-color: hsl(148, 30%, 46%);
+    height: 64px;
+    display: flex;
+    align-items: center;
 }
 
 a:link {
@@ -37,4 +40,17 @@ a:hover {
 a:active {
     color: hsl(0, 0%, 100%);
     border-bottom: none;
+}
+
+
+@media only screen and (min-width: 1024px) {
+    header ul {
+        justify-content: center;
+    }
+
+    nav li {
+        margin: 0 4rem;
+    }
+
+    
 }
