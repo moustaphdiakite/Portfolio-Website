@@ -18,7 +18,7 @@ header ul {
 
 header nav {
     padding: 0 1rem;
-    border: 1px solid hsl(0, 0%, 8%);
+    border: 3px solid hsl(0, 0%, 8%);
     background-color: hsl(148, 30%, 46%);
     height: 64px;
     display: flex;
