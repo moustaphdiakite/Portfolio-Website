@@ -76,7 +76,7 @@ a:active {
 }
 
 
-/* Main */
+/* Main aboutme */
 
 main {
     margin-top: 1rem;
@@ -90,6 +90,36 @@ main {
     text-align: justify;
     padding: 0 1rem;
 }
+
+@media only screen and (min-width: 1024px) {
+    img {
+        width: 49%;
+        height: auto;
+    }
+
+    #aboutme {
+       text-align: unset;
+    }
+
+    #aboutme h2 {
+        text-align: center;
+    }
+
+    .aboutme-content {
+        display: inline-block;
+        width: 49%;
+    }
+
+    #aboutme img {
+        display: inline-block;
+    }
+
+    #aboutme > div {
+        display: flex;
+        align-items: center;
+    }
+}
+
 
 
 
@@ -130,3 +160,11 @@ i {
 }
 
 /* Footer  */
+
+footer {
+    height: 3rem;
+}
+
+footer p {
+    font-size: 0.8rem;
+}
