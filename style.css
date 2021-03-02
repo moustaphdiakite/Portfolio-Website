@@ -92,6 +92,10 @@ main {
 }
 
 @media only screen and (min-width: 1024px) {
+    main {
+        padding: 0 1rem;
+    }
+
     img {
         width: 49%;
         height: auto;
@@ -143,6 +147,17 @@ main {
     color: hsl(0, 100%, 50%);
 }
 
+
+@media only screen and (min-width: 1024px) {
+    .project > div {
+        display: flex;
+        align-items: center;
+    }
+
+    .project p {
+        width: 49%;
+    }
+}
 
 /* Skills */ 
 
