@@ -112,3 +112,21 @@ main {
 #projects p a:hover {
     color: hsl(0, 100%, 50%);
 }
+
+
+/* Skills */ 
+
+#skills h2 {
+    text-align: center;
+}
+
+i {
+    margin: 0 0.9rem;
+}
+
+.font-awesome {
+    margin: auto;
+    width: fit-content;
+}
+
+/* Footer  */
