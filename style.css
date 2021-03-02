@@ -15,6 +15,7 @@ h4,
 h5,
 h6 {
     color: #6665dd;
+    font-weight: 900;
 }
 
 p {
@@ -53,7 +54,7 @@ a:visited {
 }
 
 a:hover {
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid hsl(0, 100%, 50%);
 }
 
 a:active {
@@ -88,4 +89,26 @@ main {
 .aboutme-content {
     text-align: justify;
     padding: 0 1rem;
+}
+
+
+
+/* Projects */
+
+#projects h2 {
+    text-align: center;
+}
+
+#projects p {
+    text-align: justify;
+    padding: 0 1rem;
+}
+
+
+#projects p a {
+    border-bottom: 2px solid hsl(0, 100%, 50%);
+}
+
+#projects p a:hover {
+    color: hsl(0, 100%, 50%);
 }
